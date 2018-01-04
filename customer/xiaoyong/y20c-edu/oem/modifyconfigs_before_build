@@ -1,8 +1,8 @@
 openfile:custom.conf
-dm.Model = Y20CPRO
-bluetooth.HostName = Y20CPRO
-fmtransmitter.RDSValue = Y20CPRO
-wlan.SSID = Y20CPRO
+dm.Model = Y20CEDU
+bluetooth.HostName = Y20CEDU
+fmtransmitter.RDSValue = Y20CEDU
+wlan.SSID = Y20CEDU
 endfile:custom.conf
 
 
