@@ -24,4 +24,5 @@ CUSTOM_LK_LCM = rm68200_dsi_cmd jd9365_dsi_hd
 CUSTOM_UBOOT_LCM = rm68200_dsi_cmd jd9365_dsi_hd
 CUSTOM_KERNEL_LCM = rm68200_dsi_cmd jd9365_dsi_hd
 CUSTOM_NAME = xiaoyong
+CUSTOM_LAUNCHER = edu
 endfile:ProjectConfig.mk
