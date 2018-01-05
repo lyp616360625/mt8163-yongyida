@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <string name="customer_phone">客服电话: 400-889-9998</string>
-   
+<string name="DEV_URL">https://resource.yydrobot.com/app/rongshida/rs20/cn/rs20.html</string>   
 </resources>
