@@ -1,5 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="setting_list_title">
+        <item>查看编码</item>
+        <item>人脸录入</item>
+        <!--<item>蓝牙</item>-->
+        <item>无线网络</item>
+        <item>家长设置</item>
+        <item>语音命令</item>
+        <!--<item>G-sensor设置</item>-->
+        <item>高级设置</item>
+        <item>联系我们</item>
+        <item>关于</item>
+    </string-array>
+    
+	 <string-array name="speaker_title">
+        <item>唤醒机器人</item>
+        <item>打断当前任务</item>
+        <item>返回主界面</item>
+        <item>退出当前应用</item>
+        <item>返回上级页面</item>
+        <item>关闭机器人</item>
+        <item>调小音量</item>
+        <item>调大音量</item>
+        <item>音量最大</item>
+        <item>音量最小</item>
+        <item>静音</item>
+        <item>打开设置</item>
+        <item>拍照</item>
+        <item>打开互动游戏</item>
+        <item>打开魔法AR</item>
+        <item>打开萌宝闹钟</item>
+        <item>互动游戏</item>
+        <item>机器人前进</item>
+        <item>机器人后退</item>
+        <item>机器人向右转</item>
+        <item>机器人向左转</item>
+        <item>机器人跳舞</item>
+        <item>机器人人脸识别</item>
+        <item>播放音乐</item>
+        <item>听指定曲目</item>
+        <item>听指定对象的曲目</item>
+        <item>暂停</item>
+        <item>继续播放</item>
+        <item>播放上一首</item>
+        <item>播放下一首</item>
+        <item>切换歌曲</item>
+        <item>单曲循环播放</item>
+        <item>随机播放</item>
+        <item>快进XX分/秒</item>
+        <item>快退XX分/秒</item>
+        <item>播放视频</item>
+        <item>看指定视频</item>
+        <item>看指定对象的视频</item>
+        <item>看指定对象的指定视频</item>
+        <item>看指定剧集</item>
+        <item>暂停</item>
+        <item>继续播放</item>
+        <item>快进XX分/秒</item>
+        <item>快退XX分/秒</item>
+        <item>播放上一集</item>
+        <item>播放下一集</item>
+        <item>切换视频</item>
+        <item>看电影</item>
+        <item>看电视剧</item>
+        <item>看动漫</item>
+        <item>看体育</item>
+        <item>看直播</item>
+        <item>观看照片</item>
+        <item>设置闹钟</item>
+        <item>关闭当前闹钟</item>
+        <item>删除闹钟</item>
+        <item>打开闹钟</item>
+        <item>查股票</item>
+        <item>查天气</item>
+        <item>查空气质量</item>
+        <item>查新闻</item>
+        <item>查附近美食</item>
+    </string-array>
+
     <string-array name="speaker_content">
         <item>小帅小帅</item>
         <item>停止、闭嘴、别说了</item>
