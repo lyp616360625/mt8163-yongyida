@@ -17,6 +17,7 @@ MTK_PROJECT_PATH=device/mediatek/mt8163
 MTK_LOGO_PATH=vendor/mediatek/proprietary/bootable/bootloader/lk/dev/logo
 MTK_BATTER_PATH=vendor/mediatek/proprietary/bootable/bootloader/lk/dev/logo/
 
+
 #客制化配置路径
 CUSTOMIZATION_PATH=$1
 length=${#CUSTOMIZATION_PATH}
@@ -139,7 +140,12 @@ fi
 #**************************************************************************************************
 #拷贝overlays
 if [ -d $CUSTOMIZATION_PATH/oem/overlays ]; then
-	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/* $TARGET_DEVICE_DIR/overlay/
+	#cp  -rf $CUSTOMIZATION_PATH/oem/overlays/* $TARGET_DEVICE_DIR/overlay/
+	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotSetting3.0/res/drawable-xhdpi/* packages/apps/YYDRobotSetting3.0/res/drawable-xhdpi/
+	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotSetting3.0/res/layout/* packages/apps/YYDRobotSetting3.0/res/layout/
+	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotSetting3.0/res/values/* packages/apps/YYDRobotSetting3.0/res/values/
+	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotSetting3.0/res/values-zh-rCN/* packages/apps/YYDRobotSetting3.0/res/values-zh-rCN/
+	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotLauncher3.0/launcher/res/values/* packages/apps/YYDRobotLauncher3.0/launcher/res/values/
 fi
 
 if [ -e $CUSTOMIZATION_PATH/oem/device.mk ]; then
@@ -222,7 +228,7 @@ echo "make otapackage ..."
 #**************************************************************************************************
 #还原编译产生的diff
 #恢复默认的overlay和checkout device目录
-rm -rf $TARGET_DEVICE_DIR/overlay/  
+#rm -rf $TARGET_DEVICE_DIR/overlay/  
 cd device/
 git checkout ./
 cd ../
