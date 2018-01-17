@@ -140,7 +140,7 @@ fi
 #**************************************************************************************************
 #拷贝overlays
 if [ -d $CUSTOMIZATION_PATH/oem/overlays ]; then
-	#cp  -rf $CUSTOMIZATION_PATH/oem/overlays/* $TARGET_DEVICE_DIR/overlay/
+	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/* $TARGET_DEVICE_DIR/overlay/
 	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotSetting3.0/res/drawable-xhdpi/* packages/apps/YYDRobotSetting3.0/res/drawable-xhdpi/
 	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotSetting3.0/res/layout/* packages/apps/YYDRobotSetting3.0/res/layout/
 	cp  -rf $CUSTOMIZATION_PATH/oem/overlays/packages/apps/YYDRobotSetting3.0/res/values/* packages/apps/YYDRobotSetting3.0/res/values/
