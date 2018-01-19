@@ -39,4 +39,5 @@
     <string name="text_alarm">闹钟</string>
     <string name="text_wifi">无线网络</string>
     <string name="tip_net_out">请连接网络</string>
+    <string name="pkn_primary_school">com.wyt.xxtongbu</string>
 </resources>
