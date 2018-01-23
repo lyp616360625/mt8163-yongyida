@@ -3,7 +3,7 @@
 <resources>
     <!-- 主菜单名称 -->
     <string-array name="launcher_item_title">
-		<item>小学教育</item>
+        <item>小学教育</item>
         <item>影视</item>
         <item>萌宝闹钟</item>
         <item>相册</item>
@@ -11,14 +11,14 @@
         <item>魔法AR</item>
         <item>互动游戏</item>
         <item>音乐</item>
-		
-		<item>视频通话</item>
+
+        <item>视频通话</item>
         <item>趣拍</item>
     </string-array>
 
     <!-- 主菜单图标资源id，与主菜单名称对应 -->
     <string-array name="launcher_item_icon" translatable="false">
-		 <item>@drawable/laun_xx</item>
+        <item>@drawable/laun_xx</item>
         <item>@drawable/laun_video</item>
         <item>@drawable/laun_alarm</item>
         <item>@drawable/laun_photo</item>
@@ -26,13 +26,13 @@
         <item>@drawable/laun_ar</item>
         <item>@drawable/laun_wisdom_star</item>
         <item>@drawable/laun_music</item>
-		
-		<item>@drawable/vedio_rs20</item>
+
+        <item>@drawable/vedio_rs20</item>
         <item>@drawable/laun_camera</item>
     </string-array>
-	
-	 <string-array name="launcher_item_mp3">
-		<item>小学教育</item>
+
+    <string-array name="launcher_item_mp3">
+        <item>mp3/launcher/primary_edu.wav</item>
         <item>mp3/launcher/10.mp3</item>
         <item>mp3/launcher/5.mp3</item>
         <item>mp3/launcher/6.mp3</item>
@@ -40,14 +40,14 @@
         <item>mp3/launcher/7.mp3</item>
         <item>mp3/launcher/8.mp3</item>
         <item>mp3/launcher/9.mp3</item>
-		
-		<item>视频通话</item>
+
+        <item>mp3/launcher/video_rs.wav</item>
         <item>mp3/launcher/11.mp3</item>
     </string-array>
 
     <!-- 主菜单对应的包名，与主菜单名称对应 -->
     <string-array name="launcher_item_package" translatable="false">
-		<item>@string/pkn_primary_school</item>
+        <item>@string/pkn_primary_school</item>
         <item>@string/video</item>
         <item>@string/alarm</item>
         <item>@string/photo</item>
@@ -55,8 +55,43 @@
         <item>@string/ar</item>
         <item>@string/wisdom_star</item>
         <item>@string/music</item>
-		
-		<item>@string/video_rs20</item>
+
+        <item>@string/video_rs20</item>
         <item>@string/camera</item>
     </string-array>
+    <string-array name="save_process">
+        <item>com.yongyida.robot.launcher</item>
+        <item>com.yyd.facedetect</item>
+        <item>com.yongyida.robot.floatbutton</item>
+        <item>com.yongyida.robot.voice</item>
+        <item>com.android.systemui</item>
+        <item>com.adups.fota</item>
+        <item>com.yongyida.robot.settings</item>
+        <item>com.yongyida.robot.voice.notification</item>
+        <item>com.yongyida.robot.breathled</item>
+        <item>com.yongyida.robot.lockscreen</item>
+    </string-array>
+
+    <string-array name="resume_kill_process">
+        <!-- 讯飞音乐-->
+        <item>com.lz.smart.music</item>
+        <!-- 讯飞视频-->
+        <item>com.zbmv</item>
+        <!-- 格林教育-->
+        <item>com.wyt.xq.yongyida</item>
+        <!-- AR-->
+        <item>com.fancyar.xiaoyongar</item>
+        <!-- 文档管理-->
+        <item>com.yongyida.robot.resourcemanager</item>
+    </string-array>
+    <string-array name="need_net_item">
+        <item>音乐</item>
+        <item>影视</item>
+    </string-array>
+    <!-- 定制化需要替换 -->
+    <array name="launcher_robo_start_mp3">
+        <item>mp3/robostart/51.mp3</item>
+        <item>mp3/robostart/52.mp3</item>
+        <item>mp3/robostart/53.mp3</item>
+    </array>
 </resources>
