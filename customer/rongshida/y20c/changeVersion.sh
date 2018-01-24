@@ -1,7 +1,7 @@
 #!/bin/bash
 #modify  versionNumber build/tools/buildinfo.sh
 changeBuildinfo(){	
-	default_version="ROS3.0_A8_V1R001"
+	default_version="ROS3.0_A8DM_V1R001"
 	propPath="$TARGET_DEVICE_DIR/system.prop"
 	ProjectConfigPath="$TARGET_DEVICE_DIR/ProjectConfig.mk"
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_version\"): " VersionNumber

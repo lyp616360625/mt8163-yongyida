@@ -1,7 +1,7 @@
 #!/bin/bash
 #modify  versionNumber build/tools/buildinfo.sh
 changeBuildinfo(){	
-	default_version="YOS3.0_Y20CPRO_EDU_V1R001"
+	default_version="YOS3.0_Y20CEDU_V1R001_TEST"
 	propPath="$TARGET_DEVICE_DIR/system.prop"
 	ProjectConfigPath="$TARGET_DEVICE_DIR/ProjectConfig.mk"
 	read -p "[autobuild.sh]:  Please input new version number (default \"$default_version\"): " VersionNumber
@@ -20,8 +20,8 @@ changeBuildinfo(){
 	else
 		AdbdRoot=`grep "MTK_ALLOW_ADBD_ROOT" $ProjectConfigPath`
 		BuildRoot=`grep "MTK_BUILD_ROOT" $ProjectConfigPath`
-		UserAdbdRoot="MTK_ALLOW_ADBD_ROOT = no"
-		UserBuildRoot="MTK_BUILD_ROOT = no"
+		UserAdbdRoot="MTK_ALLOW_ADBD_ROOT = yes"
+		UserBuildRoot="MTK_BUILD_ROOT = yes"
 		sed -i "s/$AdbdRoot/$UserAdbdRoot/" $ProjectConfigPath
 		sed -i "s/$BuildRoot/$UserBuildRoot/" $ProjectConfigPath
 	fi

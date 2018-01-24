@@ -257,7 +257,7 @@
                 android:layout_height="1dp"
                 android:layout_below="@+id/RLayout_lock"
                 android:background="#e1e1e3"
-                android:visibility="gone" />
+                 android:visibility="gone"/>
 
             <RelativeLayout
                 android:id="@+id/RLayout_prog_manage"
@@ -291,7 +291,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="30dp"
-            android:visibility="gone">
+            android:visibility="gone" >
 
             <TextView
                 android:id="@+id/tv_lock_tip"

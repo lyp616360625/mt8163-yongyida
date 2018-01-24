@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="wechat_public">微信服務號</string>
-    <string name="wechat_subscribe">官網</string>
-	<string name="DEV_URL">https://resource.yydrobot.com/app/yyd/xiaoyonghudong/cn/xiaoyonghudong.html</string>
-</resources>
