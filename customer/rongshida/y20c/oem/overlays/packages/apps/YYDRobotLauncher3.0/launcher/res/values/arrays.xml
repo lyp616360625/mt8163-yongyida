@@ -32,7 +32,7 @@
     </string-array>
 	
 	 <string-array name="launcher_item_mp3">
-		<item>小学教育</item>
+		<item>mp3/launcher/primary_edu.wav</item>
         <item>mp3/launcher/10.mp3</item>
         <item>mp3/launcher/5.mp3</item>
         <item>mp3/launcher/6.mp3</item>
@@ -41,7 +41,7 @@
         <item>mp3/launcher/8.mp3</item>
         <item>mp3/launcher/9.mp3</item>
 		
-		<item>视频通话</item>
+		<item>mp3/launcher/video_rs.wav</item>
         <item>mp3/launcher/11.mp3</item>
     </string-array>
 
