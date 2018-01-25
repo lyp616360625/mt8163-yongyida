@@ -20,8 +20,8 @@ changeBuildinfo(){
 	else
 		AdbdRoot=`grep "MTK_ALLOW_ADBD_ROOT" $ProjectConfigPath`
 		BuildRoot=`grep "MTK_BUILD_ROOT" $ProjectConfigPath`
-		UserAdbdRoot="MTK_ALLOW_ADBD_ROOT = no"
-		UserBuildRoot="MTK_BUILD_ROOT = no"
+		UserAdbdRoot="MTK_ALLOW_ADBD_ROOT = yes"
+		UserBuildRoot="MTK_BUILD_ROOT = yes"
 		sed -i "s/$AdbdRoot/$UserAdbdRoot/" $ProjectConfigPath
 		sed -i "s/$BuildRoot/$UserBuildRoot/" $ProjectConfigPath
 	fi
