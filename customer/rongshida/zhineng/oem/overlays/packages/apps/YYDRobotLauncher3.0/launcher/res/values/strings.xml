@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   
-       <string name="default_robot_name">小帅</string>
+    <string name="app_name">YYDRobotLauncher</string>
 
+    <string name="default_robot_name">小帅</string>
+    <string name="no_that_function">暂无该功能</string>
+    <!-- 对应的包名 -->
+    <string name="video">com.ktcp.tvvideo</string>
+    <string name="alarm">com.yongyida.robot.voice.notification</string>
+    <string name="photo">com.yongyida.robot.photos</string>
+
+    <string name="ar">com.fancyar.xiaoyongar</string>
+    <string name="wisdom_star">com.wyt.xq.yongyida</string>
+    <string name="music">com.lz.smart.music</string>
+    <string name="video_rs20">com.yongyida.robot.video</string>
+
+    <string name="camera">com.yongyida.robot.voice.camera</string>
+    <string name="wisdom_home">wisdom_home</string>
+    <string name="maimaiwang">maimaiwang</string>
+
+    <string name="local_phone">local_phone</string> <!--本地拨号-->
+    <string name="irremote">com.yongyida.robot.irremote</string> <!--红外遥控-->
+     <string name="xxtongbu">com.wyt.xxtongbu</string> <!--小学教育-->
+
+    <string name="setting">com.yongyida.robot.settings</string>
+    <!-- 循环监听来自哪里的KEY -->
+    <string name="recycle_from_key">from</string>
+    <!-- 循环监听悬浮表情 -->
+    <string name="recycle_voice_float_key">voice_float</string>
+    <!-- 循环监听大表情 -->
+    <string name="recycle_expression_key">expression</string>
+    <!-- 停止监听来自哪里的KEY -->
+    <string name="stop_from_key">from</string>
+    <string name="battery_high"> 当前电量百分之%s”电量充足主人！</string>
+    <string name="battery_mid"> 当前电量百分之%s！</string>
+    <string name="battery_low"> 当前电量百分之%s，主人快给我充电呗！</string>
+    <string name="battery_low_yes"> 当前电量百分之%s，正在充电中！</string>
+    <string name="currentTimeFormat">yyyy年MM月dd日 星期%s HH:mm</string>
+    <string name="text_setting">设置</string>
+    <string name="text_alarm">闹钟</string>
+    <string name="text_wifi">无线网络</string>
+    <string name="tip_net_out">请连接网络</string>
+    <string name="pkn_primary_school">com.wyt.xxtongbu</string>
 </resources>
